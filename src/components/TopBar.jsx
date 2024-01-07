@@ -4,12 +4,13 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { useNavigate } from 'react-router-dom';
 
+
 function TopBar() {
     let navigate=useNavigate()
   return<>
-  <Navbar expand="lg" className="bg-body-tertiary" fixed="top">
+  <Navbar expand="lg" className="custom" fixed="top">
   <Container>
-    <Navbar.Brand href="#home">Axios CRUD</Navbar.Brand>
+    <Navbar.Brand onClick={() => navigate("/")}>Axios CRUD</Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="me-auto">

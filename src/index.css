@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(224, 218, 218) !important;
+  background-image: linear-gradient(-225deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%);
 }
 
 .switch {
@@ -64,11 +64,22 @@ body{
   .Titlehead{
     background-color:rgb(235, 75, 107) !important;
   }
-  .navbar-fixed-top {
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1000;
-    background-color: grey !important;
-  }
- 
+  .custom{
+    background-image: linear-gradient(-225deg, #A445B2 0%, #D41872 52%, #FF0066 100%);
+  color: black;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bolder;
+  font-size: 20px;
+}
+.custom .nav-link:hover {
+  background-color: rgb(242, 238, 240);
+  color: rgb(247, 7, 111);
+  border-radius:40px;
+}
+.custom .nav-link{
+  font-family:cursive;
+}
+.custom .navbar-brand{
+  font-size: 28px;
+  cursor: pointer;
+}
