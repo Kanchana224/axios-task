@@ -42,42 +42,42 @@ catch(error){
       <div className='formWrapper'>
       <Form className="d-flex flex-column align-items-center"style={{textAlign:"center",marginTop:"20px"}}>
         <Form.Group className="mb-3 w-50 mt-5">
-          <Form.Label style={{fontFamily:"cursive", fontSize:"20px"}}>Name</Form.Label>
+          <Form.Label style={{fontFamily:"cursive", fontSize:"20px",color:"white"}}>Name</Form.Label>
           <Form.Control type="text" placeholder="Name" onChange={(blogs)=>{setName(blogs.target.value)}} style={{textAlign:"center"}}/>
         </Form.Group>
 
         <Form.Group className="mb-3 w-50">
-          <Form.Label style={{fontFamily:"cursive", fontSize:"20px"}}>Username</Form.Label>
+          <Form.Label style={{fontFamily:"cursive", fontSize:"20px",color:"white"}}>Username</Form.Label>
           <Form.Control type="text" placeholder="Username" onChange={(blogs)=>{setUsername(blogs.target.value)}} style={{textAlign:"center"}}/>
         </Form.Group>
 
         <Form.Group className="mb-3 w-50">
-          <Form.Label style={{fontFamily:"cursive", fontSize:"20px"}}>Email</Form.Label>
+          <Form.Label style={{fontFamily:"cursive", fontSize:"20px",color:"white"}}>Email</Form.Label>
           <Form.Control as="textarea" placeholder="Email" onChange={(blogs)=>{setEmail(blogs.target.value)}} style={{textAlign:"center"}}/>
         </Form.Group>
 
         <Form.Group className="mb-3 w-50">
-          <Form.Label style={{fontFamily:"cursive", fontSize:"20px"}}>Address</Form.Label>
+          <Form.Label style={{fontFamily:"cursive", fontSize:"20px",color:"white"}}>Address</Form.Label>
           <Form.Control as="textarea" placeholder="Address" onChange={(blogs)=>{setAddress(blogs.target.value)}} style={{textAlign:"center"}}/><br/>
         </Form.Group>
 
         <Form.Group className="mb-3 w-50">
-          <Form.Label style={{fontFamily:"cursive", fontSize:"20px"}}>Phone</Form.Label>
+          <Form.Label style={{fontFamily:"cursive", fontSize:"20px",color:"white"}}>Phone</Form.Label>
           <Form.Control as="textarea" placeholder="Phone" onChange={(blogs)=>{setPhone(blogs.target.value)}} style={{textAlign:"center"}}/>
         </Form.Group>
 
         <Form.Group className="mb-3 w-50">
-          <Form.Label style={{fontFamily:"cursive", fontSize:"20px"}}>Website</Form.Label>
+          <Form.Label style={{fontFamily:"cursive", fontSize:"20px",color:"white"}}>Website</Form.Label>
           <Form.Control as="textarea" placeholder="Website" onChange={(blogs)=>{setWebsite(blogs.target.value)}} style={{textAlign:"center"}}/>
         </Form.Group>
 
         <Form.Group className="mb-3 w-50">
-          <Form.Label style={{fontFamily:"cursive", fontSize:"20px"}}>Company</Form.Label>
+          <Form.Label style={{fontFamily:"cursive", fontSize:"20px",color:"white"}}>Company</Form.Label>
           <Form.Control as="textarea" placeholder="Company" onChange={(blogs)=>{setCompany(blogs.target.value)}} style={{textAlign:"center"}}/><br/>
         </Form.Group>
 
         <Form.Group className="mb-3 w-50">
-          <Form.Label style={{fontFamily:"cursive", fontSize:"20px"}}>Image Url</Form.Label>
+          <Form.Label style={{fontFamily:"cursive", fontSize:"20px",color:"white"}}>Image Url</Form.Label>
           <Form.Control as="textarea" placeholder="Paste Image Url" onChange={(blogs)=>{setImage(blogs.target.value)}} style={{textAlign:"center"}}/>
         </Form.Group>
         
